@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url('img/bg.jpeg') no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.login-wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position:relative;
+}
+#forgot-pw {
+    display: none;
+}
